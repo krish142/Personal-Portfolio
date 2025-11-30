@@ -1,7 +1,10 @@
-"use cliet";
+import type { Metadata } from "next";
 
-import GetInTouch from "@/components/home/GetInTouch";
+export const metadata: Metadata = {
+  title: "Get In Touch | krish",
+  description: "Get In Touch | krish",
+};
 
-const page = () =>{
-    return <GetInTouch />
+export default function GetInTouchLayout({children}:{children: React.ReactNode}) {
+    return<div>{children}</div>
 }
