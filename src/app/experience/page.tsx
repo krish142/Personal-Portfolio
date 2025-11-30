@@ -5,3 +5,4 @@ import Experience from "@/components/experience/Experience";
 const page = () =>{
     return <Experience />
 }
+export default page;
